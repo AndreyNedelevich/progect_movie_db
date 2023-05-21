@@ -1,0 +1,17 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.pagination button{
+    color: var(--color-pagination);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.pagination div{
+    color: white;
+}

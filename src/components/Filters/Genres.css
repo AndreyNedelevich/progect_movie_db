@@ -1,0 +1,56 @@
+.genres__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.7rem;
+    /*????*/
+    margin: 1.5rem 0.4rem 1rem 0.4rem;
+
+}
+
+.genres__list_select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 1rem;
+
+}
+
+
+.genres__list div {
+    height: 35px;
+    font-size: 1rem;
+    /*???*/
+    border: 1px solid white;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+
+.genres__list span {
+    color: white;
+    /*    ???*/
+}
+
+.genres__title {
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+}
+
+.movie__filter button {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 7px;
+    width: 12rem;
+}
+
+.movie__filter button:disabled {
+    background: #dfdddd;
+    color: black;
+}

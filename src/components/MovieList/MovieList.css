@@ -1,0 +1,28 @@
+.movie__grid{
+  display: grid;
+    grid-template-columns: 1.3fr 5fr;
+
+}
+
+
+.movie__filter{
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+}
+
+.movie__list {
+    padding: 0 1rem 4rem 1rem;
+    margin-top: 1.2rem;
+}
+
+.movie__list {
+    padding: 0 1rem 2rem 1rem;
+}
+
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
