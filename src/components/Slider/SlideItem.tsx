@@ -20,7 +20,6 @@ const SlideItem: FC<IProps> = ({item}) => {
 
 
     return (
-
         <div className="poster"
              style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(${background})`}}>
             <div className="center-max-size">

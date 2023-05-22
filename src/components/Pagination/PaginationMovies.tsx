@@ -18,7 +18,6 @@ import {useAppDispatch, useAppSelector} from "../../hooks";
 
 
     const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
-        console.log(value);
         dispatch(pageActions.setAllMoviesPage(value))
         window.scroll(0, 0);
     };

@@ -35,7 +35,7 @@ ul {
     --color-pagination: white;
     --background--color-input: black;
 
-    --main-colar-modal: rgba(28, 27, 27, 0.95);
+    --main-colar-modal: rgba(20, 19, 19, 0.96);
     --color-words-detail-movie:white;
 
 }
@@ -56,7 +56,7 @@ ul {
 
     --background--color-input: rgb(234, 234, 234);
 
-    --main-colar-modal: rgba(50, 50, 50, 0.88);
+    --main-colar-modal: rgba(34, 33, 33, 0.91);
     --color-words-detail-movie: #000000;
 }
 

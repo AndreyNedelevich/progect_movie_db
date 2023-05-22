@@ -56,8 +56,8 @@ const PosterPreview = () => {
                                 <StarsReting retingMovie={movieInfo.vote_average}/>
                             </div>
 
-                            <h3 className='data__movie__release white'>
-                                Release date <i>{movieInfo ? movieInfo.release_date : ""}</i>
+                            <h3 className='data__movie__release'>
+                               <span>Release date </span> <i>{movieInfo ? movieInfo.release_date : ""}</i>
                             </h3>
                             <h3 className='data__movie__release'>
                                 Runtime <i>{movieInfo ? movieInfo.runtime : ""} min</i>

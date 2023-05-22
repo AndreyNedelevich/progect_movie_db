@@ -32,7 +32,7 @@ const HomePage = () => {
 
 
     const {now_playining, loading,errors} = useAppSelector((state) => state.movieReducer)
-    const sliderNowPlayining = now_playining.slice(1, 8)
+    const sliderNowPlayining = now_playining.slice(1, 12)
 
 
     return (

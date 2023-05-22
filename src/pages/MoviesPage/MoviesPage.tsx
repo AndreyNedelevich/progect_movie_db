@@ -1,9 +1,9 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import {useEffect} from "react";
 
 import '../PageStyle.css'
 import {useAppDispatch, useAppSelector} from "../../hooks";
-import {genresActions, moviesActions, pageActions} from "../../redux";
+import { moviesActions} from "../../redux";
 import {IParams} from "../../interfaces";
 import {AppArrow, Footer, Loader, MovieList} from "../../components";
 import {GenreString} from "../../utils";

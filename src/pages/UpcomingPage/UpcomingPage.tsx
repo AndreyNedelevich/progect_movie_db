@@ -29,7 +29,7 @@ const UpcomingPage = () => {
         dispatch(moviesActions.getUpcomingMovies(params))
     }, [numPageAll.pageUpcoming, dispatch])
 
-    const sliderUpcoming = upcomingMovies.slice(2, 10)
+    const sliderUpcoming = upcomingMovies.slice(1, 11)
 
     const loadMore = () => {
         dispatch(moviesActions.setUpcomingPage(numPageAll.pageUpcoming + 1))

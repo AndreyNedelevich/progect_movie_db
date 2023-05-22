@@ -36,7 +36,7 @@ const TopRatedPage = () => {
     }, [numPageAll.pageTop_Rated, dispatch])
 
 
-    const sliderTrending = topRatedMovies.slice(1, 10);
+    const sliderTrending = topRatedMovies.slice(3, 13);
 
 
     const loadMore = () => {

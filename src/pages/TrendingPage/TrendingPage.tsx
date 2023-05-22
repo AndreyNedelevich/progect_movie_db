@@ -33,7 +33,7 @@ const TrendingPage = () => {
         dispatch(moviesActions.getTrendingMovies(params))
     }, [dispatch, numPageAll.pageTrending])
 
-    const sliderTrending = trendingMovies.slice(2, 10)
+    const sliderTrending = trendingMovies.slice(2, 12)
 
     const loadMore = () => {
         dispatch(moviesActions.setTrendingPage(numPageAll.pageTrending + 1))

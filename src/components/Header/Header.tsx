@@ -14,7 +14,7 @@ import {authActions} from "../../redux";
 
 
 const Header = () => {
- const {isAuth,user}= useAppSelector(state=>state.authReducer)
+ const {isAuth}= useAppSelector(state=>state.authReducer)
    const dispatch= useAppDispatch()
    const navigate=useNavigate()
 

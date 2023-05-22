@@ -67,6 +67,8 @@
     box-shadow: 0 7px 9px rgba(243, 4, 4, 0.5);
 }
 
+
+
 .control-btn button {
     background: none;
     border: 2px solid rgba(255, 255, 255, 0.3);
@@ -77,42 +79,25 @@
     cursor: pointer;
 }
 
-
-
-
-.control-btn .next {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 50%;
-    right: 2%;
+/*Слайдер*/
+.swiper-button-next{
     color: white;
-    font-size: 28px;
-}
-.control-btn .next:hover {
-    color: #996969;
 }
 
-.control-btn .prev {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 50%;
-    left: 2%;
-    z-index: 99;
+
+.swiper-button-prev{
     color: white;
-    font-size: 28px;
 }
-.control-btn .prev :hover {
-    color: #e2bcbc;
+
+.swiper-pagination span{
+   background: white;
 }
 
 
-.brand {
-    font-weight: bold;
-}
+
+
+
+
 
 
 

@@ -1,9 +1,7 @@
 import React, {Fragment, FC} from "react"
-// import { useParams } from "react-router-dom"
 
 import './MovieList.css'
 import {MoviesListCard} from "../MoviesListCard";
-import {PaginationMovies} from "../Pagination";
 import {IMovie} from "../../interfaces";
 
 
