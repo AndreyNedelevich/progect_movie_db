@@ -17,7 +17,7 @@
     background: var(--main-colar-modal);
     width: 35rem;
     height: 26rem;
-    margin: 7rem auto;
+    margin: 9.5rem auto;
     border: 2px solid black;
     padding: 1.8rem;
     border-radius: 15px;
@@ -25,11 +25,12 @@
 }
 
 .wrapper svg{
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     color: rgba(247, 242, 242, 0.79);
-    font-size: 2.7rem;
-    top: -138px;
-    right: -525px;
+    font-size: 3rem;
+    margin-left: 28rem;
 }
 
 
@@ -78,6 +79,11 @@ input:-webkit-autofill:focus {
 
 .logo {
     margin: 0 auto;
+}
+
+.logo__form{
+    width: 9.4rem;
+    margin: 0 0 0 5.5rem;
 }
 
 

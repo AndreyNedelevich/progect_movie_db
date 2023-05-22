@@ -6,9 +6,12 @@
     scroll-behavior: smooth;
 }
 
+html {
+    font-size: 100%;
+}
 
 body {
-    font-family:  "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: var(--main-bg-color);
 }
 
@@ -16,10 +19,10 @@ a {
     text-decoration: none;
     color: unset;
 }
+
 ul {
     list-style-type: none;
 }
-
 
 
 :root[data-theme="darks"] {
@@ -31,13 +34,13 @@ ul {
     --color-loader: none;
     --background-color: none;
     --color-havior: #380505;
-    --color-for-words:white;
+    --color-for-words: white;
 
     --color-pagination: white;
     --background--color-input: black;
 
     --main-colar-modal: rgba(20, 19, 19, 0.96);
-    --color-words-detail-movie:white;
+    --color-words-detail-movie: white;
 
 }
 
@@ -50,8 +53,8 @@ ul {
 
     --color-loader: none;
     --background-color: black;
-    --color-havior:black;
-    --color-for-words:black;
+    --color-havior: black;
+    --color-for-words: black;
 
     --color-pagination: #6d6868;
 
@@ -60,6 +63,59 @@ ul {
     --main-colar-modal: rgba(34, 33, 33, 0.91);
     --color-words-detail-movie: #000000;
 }
+
+
+
+
+@media (max-width: 1200px) {
+    /*!*Large*!*/
+    /*@media screen and (min-width: 992px ) and (max-width: 1200px) {} */
+
+}
+
+@media (max-width: 992px) {
+    /*!*Medium*!*/
+    /*@media screen and (min-width: 768px ) and (max-width: 992px) {}*/
+    .flexSB li a {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+    html {
+        font-size: 80%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    /*!*Small*!*/
+    /*@media screen and (min-width: 576px ) and (max-width: 768px) {}*/
+    html {
+        font-size: 80%;
+    }
+
+    .logo img{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    /*XS size*/
+    /*@media screen and (min-width: 0 ) and (max-width: 575px) {}*/
+    .genres__card {
+        margin: 0;
+    }
+
+    .container {
+        flex-direction: row-reverse;
+        flex-wrap: wrap
+    }
+
+}
+
 
 
 

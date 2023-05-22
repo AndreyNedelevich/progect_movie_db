@@ -13,7 +13,6 @@ interface IProps {
 
 const Video: FC<IProps> = ({id}) => {
 
-
     const [video,setVideos]= useState<IVideo>(null)
 
 
@@ -29,6 +28,7 @@ const Video: FC<IProps> = ({id}) => {
 
 
 
+
     return (
         <>
             {video &&
@@ -36,14 +36,13 @@ const Video: FC<IProps> = ({id}) => {
                     <div className="video__title">
                     </div>
                     <iframe
+                        className="video__pleer"
                         src={`https://www.youtube.com/embed/${video.key}`}
                         allowFullScreen={true}
-                        width="65%"
                         title="video"
-                        height='650'
+
                     ></iframe>
-                </div>
-            }
+                </div>}
         </>)
 }
 

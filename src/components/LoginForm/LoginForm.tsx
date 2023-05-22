@@ -6,7 +6,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import {IAuth} from "../../interfaces";
 import {authActions} from "../../redux";
 import {useAppDispatch} from "../../hooks";
-import style from './loginForm.module.css'
+import './loginForm.css'
 import {authValidator} from "../../validators";
 import logo from "../../assets/imeges/logo.png";
 
@@ -34,28 +34,29 @@ const LoginForm = () => {
 
 
     return (
-        <div  className={style.backdrop}>
-        <div className={style.wrapper}>
-            <div className={style.logo}>
-                <img src={logo} alt='logo '/>
-            </div>
-            <form className={style.form} onSubmit={handleSubmit(login)}>
+        <div  className={'backdrop'}>
+            <div className={'wrapper'}>
                 <CloseIcon onClick={closeModalWindow}/>
-                <input
-                    type="text"
-                    placeholder={"username"}
-                    {...register("username")}
-                />
-                {errors.username && <span>{errors.username.message}</span>}
-                <input
-                    type="text"
-                    placeholder={"pasword"}
-                    {...register("password")}
-                />
-                {errors.password && <span>{errors.password.message}</span>}
-                <button style={{width:'100%'}} className='button_slider modal ' disabled={!isValid} >SIGN IN</button>
-            </form>
-        </div>
+                <div className={'logo__form'}>
+                    <img src={logo} alt='logo '/>
+                </div>
+                <form className={'form'} onSubmit={handleSubmit(login)}>
+
+                    <input
+                        type="text"
+                        placeholder={"username"}
+                        {...register("username")}
+                    />
+                    {errors.username && <span>{errors.username.message}</span>}
+                    <input
+                        type="text"
+                        placeholder={"pasword"}
+                        {...register("password")}
+                    />
+                    {errors.password && <span>{errors.password.message}</span>}
+                    <button style={{width:'100%'}} className='button_slider modal ' disabled={!isValid} >SIGN IN</button>
+                </form>
+            </div>
         </div>
     );
 };

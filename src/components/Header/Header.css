@@ -19,11 +19,11 @@
     outline: none;
     border: none;
     color: #fff;
-    padding: 12px 40px;
+    padding: 0.75rem 2.5rem;
     font-weight: 500;
     border-radius: 10px;
-    font-size: 14px;
-    width: 180px;
+    font-size: 0.9rem;
+    width:11.25rem;
 }
 
 .header {
@@ -32,7 +32,7 @@
     left: 0;
     width: 100%;
     z-index: 99;
-    height: 80px;
+    height: 6.3rem;
     color: #fff;
     transition: height 0.3s ease, background-color 0.4s ease;
     background-size: cover;
@@ -41,14 +41,14 @@
 }
 
 .fix {
-    height: 100px;
+    height: 6.25rem;
     background-image:none;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 .logo img {
-    width: 150px;
-    margin-right: 25px;
+    width: 9.4rem;
+    margin-right: 1.5rem;
 }
 
 .flexSB a {

@@ -38,7 +38,7 @@ const PosterPreview = () => {
                          }}>
 
                     </div>
-                    <div className="mb-3 movie-content container">
+                    <div className="mb-3 movie-content containers">
                         <div className="movie-content__poster">
                             <div className="movie-content__poster__img"
                                  style={{backgroundImage: `url(${urlsMovieDB.posterMovie(movieInfo.poster_path || movieInfo.backdrop_path)})`}}>

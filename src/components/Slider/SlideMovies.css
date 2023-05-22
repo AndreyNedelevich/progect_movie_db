@@ -8,7 +8,7 @@
 .poster {
     background-size: cover;
     background-position: top center;
-    min-height: 600px;
+    min-height: 39rem;
     display: flex;
     align-items: flex-end;
     padding-bottom: 50px;
@@ -22,9 +22,9 @@
 
 .poster-content h1 {
     color: #ffffff;
-    font-size: 92px;
+    font-size: 5.75rem;
     line-height: 1;
-    margin :15px 0;
+    margin :0.95rem 0;
 
 }
 .poster-content p{

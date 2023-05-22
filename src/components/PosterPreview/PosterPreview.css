@@ -8,6 +8,15 @@
     min-height: 35rem;
 }
 
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 .movie-content {
     color: white;
     display: flex;
@@ -35,7 +44,6 @@
 
 
 .movie-content__info {
-
     width: 70%;
     padding-left: 2rem;
     position: relative;
@@ -103,7 +111,5 @@
     color: white;
     font-size: 2rem;
     margin-right: 0.5rem;
-
-
 }
 
