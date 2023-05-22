@@ -8,12 +8,13 @@
 
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family:  "Montserrat", sans-serif;
     background-color: var(--main-bg-color);
 }
 
 a {
     text-decoration: none;
+    color: unset;
 }
 ul {
     list-style-type: none;
