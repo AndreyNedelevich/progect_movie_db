@@ -3,7 +3,7 @@ import React, {useEffect} from 'react';
 import '../PageStyle.css'
 import {useAppDispatch, useAppSelector} from "../../hooks";
 import {authActions, moviesActions} from "../../redux";
-import {Footer, MovieListWithoutFilter, SliderMovie} from "../../components";
+import {AppArrow, Footer, MovieListWithoutFilter, SliderMovie} from "../../components";
 import {Loader} from "../../components";
 import {LoginForm} from "../../components/LoginForm/LoginForm";
 import {IUser} from "../../interfaces";
@@ -46,6 +46,7 @@ const HomePage = () => {
                 <MovieListWithoutFilter movies={now_playining}/>
             </>
             {isShowModalLogIn && <LoginForm/>}
+            <AppArrow/>
             <Footer/>
         </div>
     );

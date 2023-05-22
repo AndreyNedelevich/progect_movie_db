@@ -8,7 +8,7 @@ import {StarsReting} from "../StarsRating";
 import {Video} from "../Video";
 import {GenresisFilm} from "../Filters";
 import './PosterPreview.css'
-import {Loader} from "../UI";
+import {AppArrow, Loader} from "../UI";
 import {Footer} from "../Footer";
 
 const PosterPreview = () => {
@@ -29,7 +29,7 @@ const PosterPreview = () => {
             {movieInfo &&
                 <>
                     {<span className='loading__movie'>
-                        {loading&&<Loader/>}
+                        {loading && <Loader/>}
                     </span>}
                     <div className="poster heignt__poster"
                          style={{
@@ -57,7 +57,7 @@ const PosterPreview = () => {
                             </div>
 
                             <h3 className='data__movie__release'>
-                               <span>Release date </span> <i>{movieInfo ? movieInfo.release_date : ""}</i>
+                                <span>Release date </span> <i>{movieInfo ? movieInfo.release_date : ""}</i>
                             </h3>
                             <h3 className='data__movie__release'>
                                 Runtime <i>{movieInfo ? movieInfo.runtime : ""} min</i>
@@ -77,7 +77,9 @@ const PosterPreview = () => {
                         <Video id={+id}/>
                     </div>
                 </>
+
             }
+            <AppArrow/>
             <Footer/>
         </>
     )
