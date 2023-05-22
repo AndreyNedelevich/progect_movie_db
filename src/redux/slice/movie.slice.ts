@@ -39,7 +39,7 @@ const initialState: IState = {
 
     numPageAllMovies:1,
     numPageTopRated:1,
-    numOfPagesForAll:7,
+    numOfPagesForAll:25,
 
     numPageAll:{
         pageTrending:1,
