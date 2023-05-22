@@ -21,7 +21,7 @@
     border: 2px solid black;
     padding: 1.8rem;
     border-radius: 15px;
-
+    transition: background 2s ease-in;
 }
 
 .wrapper svg{
@@ -48,6 +48,7 @@
 
 .form{
     margin: 10px 5px;
+    transition: all 3s ease-out;
 }
 
 

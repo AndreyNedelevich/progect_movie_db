@@ -21,7 +21,7 @@ const SlideItem: FC<IProps> = ({item}) => {
 
     return (
         <div className="poster"
-             style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(${background})`}}>
+             style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(${background})`}}>
             <div className="center-max-size">
                 <div className="poster-content">
                     <button className={"btn play-video"}
@@ -36,5 +36,4 @@ const SlideItem: FC<IProps> = ({item}) => {
         </div>
     )
 }
-
 export {SlideItem}
