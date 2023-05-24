@@ -33,7 +33,7 @@ const PosterPreview = () => {
                     </span>}
                     <div className="poster heignt__poster"
                          style={{
-                             backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), 
+                             backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), 
                      url(${movieInfo ? urlsMovieDB.bigImgMovie(movieInfo.backdrop_path) : ''})`
                          }}>
 
