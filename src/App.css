@@ -26,7 +26,7 @@ ul {
 
 
 :root[data-theme="darks"] {
-    --main-bg-color: rgba(24, 23, 23, 0.95);
+    --main-bg-color: rgba(0, 0, 0, 0.9);
     --color-titles: white;
 
     --color-arrow: white;
