@@ -6,27 +6,27 @@
     overflow: hidden;
     margin: 0.19rem;
     cursor:pointer;
-    min-width:200px;
-    height:300px;
+    min-width:12.5rem;
+    height:19rem;
     z-index:0;
     border: 1px solid rgb(99, 99, 99);
 }
 
 .cards:hover {
-    transform: scale(1.2);
+    transform: scale(1.08);
     z-index: 1000;
     box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
 }
 
 .cards__img {
-    height: 300px;
+    height: 19rem;
 }
 
 .cards__overlay {
     position: absolute;
     padding: 0 1rem 1rem 1rem;
     bottom: 0;
-    height: 290px;
+    height: 18rem;
     display: flex;
     flex-direction: column;
     width: 100%;

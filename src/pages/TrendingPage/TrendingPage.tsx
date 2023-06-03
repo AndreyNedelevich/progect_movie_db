@@ -25,7 +25,7 @@ const TrendingPage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-        dispatch(moviesActions.setTrendingPage(1))
+        // dispatch(moviesActions.setTrendingPage(1))
     }, [])
 
 
@@ -64,7 +64,7 @@ const TrendingPage = () => {
                     {
                         numPageAll.pageTrending > 1 ? (
                             <button  className='button__load' onClick={loadFirstPage}>
-                                load first page
+                                 first page
                             </button>
                         ) : null
                     }

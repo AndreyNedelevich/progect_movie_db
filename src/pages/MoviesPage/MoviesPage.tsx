@@ -28,6 +28,11 @@ const MoviesPage = () => {
         with_genres: stringSelectedGenres
     };
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        dispatch(moviesActions.setAllMoviesPage(1))
+    }, [])
+
 
     useEffect(() => {
         dispatch(moviesActions.getAllMovies(params))

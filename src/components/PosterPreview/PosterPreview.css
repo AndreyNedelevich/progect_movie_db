@@ -5,7 +5,7 @@
 }
 
 .heignt__poster{
-    min-height: 35rem;
+   height: 35rem;
 }
 
 .containers{
@@ -25,7 +25,7 @@
     max-width: 1260px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -14rem;
+    margin-top: -15rem;
     position: relative;
     padding: 0 2rem;
 }
@@ -51,10 +51,11 @@
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 1;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
+
 
 .genres {
     display: flex;
@@ -73,26 +74,27 @@
 
 .data__movie__release{
     margin-bottom: 1.2rem;
-    color: var(--color-words-detail-movie);
-    text-shadow: 1px 0 1px #000,
-    0 0.5px 0.5px #000,
-    -0.5px 0 1px #000,
-    0 -0.5px 0.5px #000;
+    text-shadow: 2px 0 1.3px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 0.5px #000;
     font-size: 1.7rem;
     font-style:italic;
 }
 
 .data__movie__release span{
-    color: white;
+    color: #ffffff;
 }
 
 
-
-
-.data__movie__release>i{
+.data__movie__release i{
     margin-left: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: red;
+    text-shadow: 0 0 0.2px #000,
+    0 0 0.3px #000,
+    -0.1px 0 0 #000,
+    0 -0.2px 0.2px #000;
 }
 
 
@@ -108,7 +110,11 @@
 }
 
 .data__movie__reting{
-    color: white;
+    text-shadow: 2px 0 1.3px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 0.5px #000;
+    font-style:italic;
     font-size: 2rem;
     margin-right: 0.5rem;
 }

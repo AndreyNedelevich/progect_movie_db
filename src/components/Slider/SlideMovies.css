@@ -9,10 +9,10 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    min-height: 40rem;
+    min-height: 35rem;
     display: flex;
     align-items: flex-end;
-    padding-bottom: 50px;
+    padding-bottom: 3.15rem;
     position: relative;
 }
 
@@ -23,14 +23,14 @@
 
 .poster-content h1 {
     color: #ffffff;
-    font-size: 5.75rem;
+    font-size: 4rem;
     line-height: 1;
     margin :0.95rem 0;
 
 }
 .poster-content p{
     color: #ffffff;
-    margin-bottom:20px ;
+    margin-bottom:1.25rem ;
 }
 
 .btn {
@@ -50,23 +50,6 @@
     box-shadow: 0 0 7px 15px #ff00004d;
 }
 
-
-.button_slider {
-    margin: 20px 0;
-    background-color: red;
-    color:white;
-    border-radius: 8px;
-    outline: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: box-shadow 0.3s ease;
-    border: 1px solid gray;
-}
-.button_slider:hover {
-    box-shadow: 0 7px 9px rgba(243, 4, 4, 0.5);
-}
 
 
 
@@ -92,6 +75,8 @@
 
 .swiper-pagination span{
    background: white;
+    width: 0.7rem;
+    height: 0.7rem;
 }
 
 

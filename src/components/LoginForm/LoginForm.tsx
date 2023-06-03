@@ -36,25 +36,24 @@ const LoginForm = () => {
     return (
         <div  className={'backdrop'}>
             <div className={'wrapper'}>
-                <CloseIcon onClick={closeModalWindow}/>
                 <div className={'logo__form'}>
                     <img src={logo} alt='logo '/>
                 </div>
                 <form className={'form'} onSubmit={handleSubmit(login)}>
-
+                    <CloseIcon onClick={closeModalWindow}/>
                     <input
                         type="text"
                         placeholder={"username"}
                         {...register("username")}
                     />
-                    {errors.username && <span>{errors.username.message}</span>}
+                    {errors.username && <span className="error1">{errors.username.message}</span>}
                     <input
                         type="text"
                         placeholder={"pasword"}
                         {...register("password")}
                     />
-                    {errors.password && <span>{errors.password.message}</span>}
-                    <button style={{width:'100%'}} className='button_slider modal ' disabled={!isValid} >SIGN IN</button>
+                    {errors.password && <span className="error2" >{errors.password.message}</span>}
+                    <button style={{width:'100%',height:'2.5rem',margin:'7px 0'}} className='button_slider' disabled={!isValid} >SIGN IN</button>
                 </form>
             </div>
         </div>

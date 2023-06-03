@@ -27,7 +27,7 @@ const TopRatedPage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-        dispatch(moviesActions.setTopRatedPage(1))
+        // dispatch(moviesActions.setTopRatedPage(1))
     }, [])
 
 
@@ -67,7 +67,7 @@ const TopRatedPage = () => {
                     {
                         numPageAll.pageTop_Rated > 1 ? (
                             <button className='button__load' onClick={loadFirstPage}>
-                                load first page
+                                 first page
                             </button>
                         ) : null
                     }

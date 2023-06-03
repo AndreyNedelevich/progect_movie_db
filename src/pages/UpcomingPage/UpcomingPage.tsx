@@ -22,7 +22,7 @@ const UpcomingPage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-        dispatch(moviesActions.setUpcomingPage(1))
+        // dispatch(moviesActions.setUpcomingPage(1))
     }, [])
 
     useEffect(() => {
@@ -58,7 +58,7 @@ const UpcomingPage = () => {
                         {
                             numPageAll.pageUpcoming > 1 ? (
                                 <button className='button__load' onClick={loadFirstPage}>
-                                    load first page
+                                     first page
                                 </button>
                             ) : null
                         }

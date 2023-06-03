@@ -5,7 +5,7 @@
     align-items: center;
     max-width: 90%;
     margin: 0 auto;
-    margin-top:20px ;
+    margin-top: 1.25rem ;
 }
 
 .flexSB {
@@ -54,8 +54,8 @@
 .flexSB a {
     color: #fff;
     text-shadow: 1px 1px 0.5px rgba(160, 156, 156, 0.8), 2px 0.5px 0.5px #000, 0 0 0.5px #000, 0 0 1px;
-    font-size: 20px;
-    margin-left: 25px;
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
     font-weight: 700;
     padding: 5px 0;
     position: relative;
@@ -68,16 +68,15 @@
       transform: translateX(-50%);
       width: 0;
       transition: width 0.8s ease;
-      height: 4px;
+      height: 0.25rem;
       background-color: red;
   }
 
 .flexSB  a:hover:after {
     width: 100%;
 }
-.flexSB  a:hover{
-    color: red;
-}
+
+
 
 .flexSB  a[class='active']::after {
     width: 100%;

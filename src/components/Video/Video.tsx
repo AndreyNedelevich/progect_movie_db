@@ -20,7 +20,8 @@ const Video: FC<IProps> = ({id}) => {
         const getVideos = async () => {
             const {data} = await aditionalService.getMovieVideos(id);
             const findOficialTreiller = data.results.find(item => item.name === "Official Trailer")
-            const trailer=findOficialTreiller ? findOficialTreiller : data.results[0]?data.results[1]:data.results[2]
+             //const trailer=findOficialTreiller ? findOficialTreiller : data.results[0]?data.results[1]:data.results[2]
+           const trailer=findOficialTreiller  || data.results[0]||data.results[1]||data.results[2]
             setVideos(trailer);
         };
         getVideos();

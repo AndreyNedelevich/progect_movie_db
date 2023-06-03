@@ -49,7 +49,7 @@ ul {
     --main-bg-color: rgb(240, 240, 240);
     --color-titles: rgba(56, 53, 53, 0.73);
 
-    --color-arrow: rgb(200, 197, 197);
+    --color-arrow: rgb(168, 166, 166);
 
     --color-loader: none;
     --background-color: black;
@@ -65,55 +65,70 @@ ul {
 }
 
 
-
-
 @media (max-width: 1200px) {
     /*!*Large*!*/
     /*@media screen and (min-width: 992px ) and (max-width: 1200px) {} */
-
+    /*  // Адаптацию проводим при 993px*/
+    html {
+        font-size: 80%;
+    }
 }
 
 @media (max-width: 992px) {
     /*!*Medium*!*/
     /*@media screen and (min-width: 768px ) and (max-width: 992px) {}*/
-    .flexSB li a {
-        font-size: 17px;
-        margin-left: 10px;
-    }
-
+    /*Адаптацию проводим при 769px*/
     html {
-        font-size: 80%;
+        font-size: 62.3%;
     }
-
-
 }
 
 @media (max-width: 768px) {
     /*!*Small*!*/
     /*@media screen and (min-width: 576px ) and (max-width: 768px) {}*/
-    html {
-        font-size: 80%;
+    /* Адаптацию проводим при 577px*/
+
+    .container {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
     }
 
-    .logo img{
+    .swiper-button-next {
+        visibility: hidden;
+    }
+
+    .swiper-button-prev {
+        visibility: hidden;
+    }
+
+    .logo img {
         display: none;
     }
 
+    .button__load {
+        width: 20rem;
+    }
 
 }
 
 @media (max-width: 576px) {
     /*XS size*/
     /*@media screen and (min-width: 0 ) and (max-width: 575px) {}*/
+    /*Адаптацию проводим при 320px*/
+
+
+    html {
+        font-size: 41%;
+    }
+
+
     .genres__card {
         margin: 0;
     }
 
-    .container {
-        flex-direction: row-reverse;
-        flex-wrap: wrap
+    .button__load {
+        font-size: 1.3rem;
     }
-
 }
 
 
