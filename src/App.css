@@ -116,7 +116,6 @@ ul {
     /*@media screen and (min-width: 0 ) and (max-width: 575px) {}*/
     /*Адаптацию проводим при 320px*/
 
-
     html {
         font-size: 41%;
     }
@@ -131,11 +130,10 @@ ul {
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 0 ) and (max-width: 320px) {
     html {
-        font-size: 36%;
+        font-size: 30%;
     }
-
 }
 
 
