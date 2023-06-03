@@ -130,9 +130,9 @@ ul {
     }
 }
 
-@media screen and (min-width: 0 ) and (max-width: 320px) {
+@media (max-width: 320px) {
     html {
-        font-size: 28%;
+        font-size: 30%;
     }
 }
 
