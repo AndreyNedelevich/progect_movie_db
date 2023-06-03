@@ -12,6 +12,7 @@
 }
 
 .movie__list {
+    min-height: 50rem;
     margin-top: 1.2rem;
 }
 
