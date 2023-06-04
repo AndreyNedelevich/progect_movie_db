@@ -7,6 +7,7 @@ import {useAppSelector, useAppDispatch} from "../../hooks";
 import {genresActions, pageActions} from "../../redux";
 import './Genres.css'
 import {IGenre} from "../../interfaces";
+import {boolean} from "joi";
 
 const Genres = () => {
 
@@ -32,7 +33,6 @@ const Genres = () => {
     };
 
 
-
     return (
         <Fragment>
             <h3 className='genres__title'>Genres</h3>
@@ -54,8 +54,8 @@ const Genres = () => {
                     <Chip
                         label={genre.name}
                         key={genre.id}
-                        size="medium"
                         color="primary"
+                        size={"medium"}
                         onDelete={() => handleDelete(genre)}
                         clickable
                     />

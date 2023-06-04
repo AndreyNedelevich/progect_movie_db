@@ -118,8 +118,10 @@ ul {
     /*@media screen and (min-width: 0 ) and (max-width: 575px) {}*/
     /*Адаптацию проводим при 320px*/
 
+
+
     html {
-        font-size: 41%;
+        font-size: 44%;
     }
 
 
@@ -132,9 +134,15 @@ ul {
     }
 }
 
+
 @media (max-width: 320px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     html {
-        font-size: 31%;
+        font-size: 31.5%;
     }
 }
 
