@@ -4,6 +4,8 @@ import App from './App';
 import {BrowserRouter} from "react-router-dom";
 import {Provider} from "react-redux";
 
+
+import 'normalize.css';
 import './index.css';
 import {setupStore} from "./redux";
 import {ThemeProvider} from "./context";

@@ -1,5 +1,4 @@
-
-@import 'normalize.css';
+@import "normalize.css";
 
 * {
     padding: 0;
@@ -14,9 +13,7 @@ html,body {
     background-color: var(--main-bg-color);
     width: 100%;
     overflow-x:hidden ;
-
 }
-
 
 
 a {
@@ -27,7 +24,6 @@ a {
 ul {
     list-style-type: none;
 }
-
 
 :root[data-theme="darks"] {
     --main-bg-color: rgba(0, 0, 0, 0.9);
@@ -67,6 +63,8 @@ ul {
     --main-colar-modal: rgba(34, 33, 33, 0.91);
     --color-words-detail-movie: #000000;
 }
+
+
 
 
 @media (max-width: 1200px) {
@@ -136,7 +134,7 @@ ul {
 
 @media (max-width: 320px) {
     html {
-        font-size: 30%;
+        font-size: 31%;
     }
 }
 
