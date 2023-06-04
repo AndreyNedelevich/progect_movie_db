@@ -7,7 +7,7 @@ import {useAppSelector, useAppDispatch} from "../../hooks";
 import {genresActions, pageActions} from "../../redux";
 import './Genres.css'
 import {IGenre} from "../../interfaces";
-import {boolean} from "joi";
+
 
 const Genres = () => {
 
