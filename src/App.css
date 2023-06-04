@@ -6,14 +6,16 @@
     scroll-behavior: smooth;
 }
 
-html {
+html,body {
     font-size: 100%;
-}
-
-body {
     font-family: "Montserrat", sans-serif;
     background-color: var(--main-bg-color);
+    width: 100%;
+    overflow-x:hidden ;
+
 }
+
+
 
 a {
     text-decoration: none;
