@@ -1,14 +1,14 @@
-.loading__movie{
+.loading__movie {
     position: relative;
     top: 4.7rem;
     z-index: 999;
 }
 
-.heignt__poster{
-   height: 35rem;
+.heignt__poster {
+    height: 38rem;
 }
 
-.containers{
+.containers {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@
     max-width: 1260px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -15rem;
+    margin-top: -15.5rem;
     position: relative;
     padding: 0 2rem;
 }
@@ -35,12 +35,12 @@
 }
 
 .movie-content__poster__img {
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     border-radius: 20px;
-     padding-top: 165%;
- }
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding-top: 165%;
+}
 
 
 .movie-content__info {
@@ -53,7 +53,7 @@
 .title {
     font-size: 5rem;
     line-height: 1;
-    margin-bottom: 6rem;
+    margin: 1rem 0 6rem 0;
 }
 
 
@@ -62,9 +62,9 @@
     margin-left: 0.5rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
-  }
+}
 
-.overview{
+.overview {
     color: var(--color-words-detail-movie);
     font-size: 1.7rem;
     margin-bottom: 2.5rem;
@@ -72,22 +72,22 @@
 }
 
 
-.data__movie__release{
+.data__movie__release {
     margin-bottom: 1.2rem;
     text-shadow: 2px 0 1.3px #000,
     0 1px 1px #000,
     -1px 0 1px #000,
     0 -1px 0.5px #000;
     font-size: 1.7rem;
-    font-style:italic;
+    font-style: italic;
 }
 
-.data__movie__release span{
+.data__movie__release span {
     color: #ffffff;
 }
 
 
-.data__movie__release i{
+.data__movie__release i {
     margin-left: 0.5rem;
     font-size: 2rem;
     color: red;
@@ -98,23 +98,23 @@
 }
 
 
-.data__movie__block{
+.data__movie__block {
     display: flex;
     margin-bottom: 1rem;
 }
 
 
-.data__movie__block svg{
+.data__movie__block svg {
     font-size: 2rem;
     color: red;
 }
 
-.data__movie__reting{
+.data__movie__reting {
     text-shadow: 2px 0 1.3px #000,
     0 1px 1px #000,
     -1px 0 1px #000,
     0 -1px 0.5px #000;
-    font-style:italic;
+    font-style: italic;
     font-size: 2rem;
     margin-right: 0.5rem;
 }
