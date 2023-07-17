@@ -8,7 +8,6 @@ import {authService} from "../../services";
 
 interface IState {
     isShowModalLogIn: boolean
-
     isAuth: boolean,
     errorAuth: string,
     iLloading: boolean,
