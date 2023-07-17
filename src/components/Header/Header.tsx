@@ -99,7 +99,7 @@ const Header = () => {
                             {theme === 'lights' && <WbSunnyOutlined fontSize="large"/>}
                             {theme === 'darks' && <DarkModeOutlined fontSize="large"/>}
                         </IconButton>
-                        <button onClick={isAuth? logOut: singlIn } className='button'>{isAuth?'LOG OUT': 'SINGL IN'} </button>
+                        {/*<button onClick={isAuth? logOut: singlIn } className='button'>{isAuth?'LOG OUT': 'SINGL IN'} </button>*/}
                     </div>
                 </div>
             </header>

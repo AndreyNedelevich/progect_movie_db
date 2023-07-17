@@ -17,7 +17,6 @@ interface IState {
 
 const initialState: IState = {
     isShowModalLogIn: false,
-
     isAuth: false,
     errorAuth: '',
     iLloading: false,
@@ -65,7 +64,7 @@ const slice = createSlice({
     extraReducers: builder =>
         builder
             .addCase(getAuthUser.fulfilled, (state, action) => {
-                if (localStorage.getItem('auth') && localStorage.getItem('username')) {
+                if (localStorage.getItem('auth')) {
                     state.user = action.payload;
                     state.isAuth = true
                     state.errorAuth=''

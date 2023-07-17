@@ -16,13 +16,10 @@ const LoginForm = () => {
     const dispatch = useAppDispatch();
 
 
-
-
     const {handleSubmit, register, reset,
         formState: {isValid, errors}} = useForm<IAuth>({mode: 'all', resolver: joiResolver(authValidator)});
 
     const login: SubmitHandler<IAuth> = (user) => {
-        console.log(user);
         dispatch(authActions.getAuthUser(user))
         reset();
 

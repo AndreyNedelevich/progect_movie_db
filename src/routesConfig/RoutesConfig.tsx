@@ -4,6 +4,7 @@ import {Routes, Route, Navigate} from "react-router-dom";
 import {RequiredAuth} from "../hoc";
 import { HomePage, UpcomingPage, TrendingPage, TopRatedPage, MoviesPage,SearchPage} from "../pages";
 import {PosterPreview} from "../components/PosterPreview";
+import {useAppSelector} from "../hooks";
 
 
 
@@ -19,7 +20,11 @@ enum RouteNames {
 
 
 const RoutesConfig = () => {
+
+
+
     return (
+        <>
         <Routes>
             <Route index element={<Navigate to={RouteNames.HOME}/>}/>
             <Route  path={RouteNames.HOME} element={<HomePage/>}/>
@@ -49,8 +54,8 @@ const RoutesConfig = () => {
                 </RequiredAuth>
             }/>
             <Route path={RouteNames.IDMOVIE} element={<PosterPreview/>}/>
-
         </Routes>
+        </>
     );
 };
 
